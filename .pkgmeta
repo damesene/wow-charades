@@ -1,0 +1,13 @@
+package-as: Charades
+
+manual-changelog:
+  filename: CHANGELOG.md
+  markup-type: markdown
+
+ignore:
+  - assets
+  - tests
+  - CONTRIBUTING.md
+  - .github
+  - .gitignore
+  - .pkgmeta

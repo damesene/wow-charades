@@ -1,0 +1,38 @@
+<Bindings>
+    <Binding name="CHARADES_TOGGLE" header="CHARADES" category="ADDONS">
+        Charades_Toggle()
+    </Binding>
+    <Binding name="CHARADES_WHEEL" runOnUp="true" category="ADDONS">
+        Charades_Wheel(keystate)
+    </Binding>
+    <Binding name="CHARADES_FAV1" category="ADDONS">
+        Charades_RunFavorite(1)
+    </Binding>
+    <Binding name="CHARADES_FAV2" category="ADDONS">
+        Charades_RunFavorite(2)
+    </Binding>
+    <Binding name="CHARADES_FAV3" category="ADDONS">
+        Charades_RunFavorite(3)
+    </Binding>
+    <Binding name="CHARADES_FAV4" category="ADDONS">
+        Charades_RunFavorite(4)
+    </Binding>
+    <Binding name="CHARADES_FAV5" category="ADDONS">
+        Charades_RunFavorite(5)
+    </Binding>
+    <Binding name="CHARADES_FAV6" category="ADDONS">
+        Charades_RunFavorite(6)
+    </Binding>
+    <Binding name="CHARADES_FAV7" category="ADDONS">
+        Charades_RunFavorite(7)
+    </Binding>
+    <Binding name="CHARADES_FAV8" category="ADDONS">
+        Charades_RunFavorite(8)
+    </Binding>
+    <Binding name="CHARADES_FAV9" category="ADDONS">
+        Charades_RunFavorite(9)
+    </Binding>
+    <Binding name="CHARADES_FAV10" category="ADDONS">
+        Charades_RunFavorite(10)
+    </Binding>
+</Bindings>

@@ -1,0 +1,27 @@
+## Interface: 16001
+## Title: Charades
+## Notes: Emotes, commands and text from a menu, a radial wheel or key bindings
+## Author: Ondra
+## X-License: MIT
+## X-Category: Roleplay
+# After creating the CurseForge project, replace the line below with: ## X-Curse-Project-ID: <your id>
+# X-Curse-Project-ID:
+## Version: 1.0.0
+## SavedVariables: CharadesDB
+## SavedVariablesPerCharacter: CharadesCharDB
+## IconTexture: Interface\AddOns\Charades\Icons\drama
+## AddonCompartmentFunc: Charades_Toggle
+
+Defaults.lua
+Core.lua
+GameIcons.lua
+Icons.lua
+Actions.lua
+Panel.lua
+Wheel.lua
+Transfer.lua
+General.lua
+KeyBindings.lua
+Editor.lua
+MinimapMenu.lua
+Charades.lua

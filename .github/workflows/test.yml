@@ -1,0 +1,19 @@
+name: Test
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: sudo apt-get update && sudo apt-get install -y lua5.1
+      - name: Syntax check
+        run: for f in *.lua; do luac5.1 -p "$f"; done
+      - name: Tests
+        run: |
+          lua5.1 tests/harness.lua | tee result.txt
+          ! grep -q "^FAIL" result.txt
